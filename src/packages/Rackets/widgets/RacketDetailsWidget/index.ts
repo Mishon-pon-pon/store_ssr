@@ -1,0 +1,1 @@
+export { RacketDetailsWidget } from "./ui";

@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "home": "Home",
+    "rackets": "Rackets"
+  },
+  "rackets": {
+    "title": "Rackets",
+    "filters": {
+      "brand": "Brand",
+      "all": "All"
+    }
+  },
+  "theme": {
+    "switchToLight": "Switch to light",
+    "switchToDark": "Switch to dark"
+  },
+  "home": {
+    "title": "Home"
+  },
+  "racket": {
+    "price": "Price"
+  },
+  "metadata": {
+    "title": "Tennis Goods Store",
+    "description": "Online tennis goods store"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}

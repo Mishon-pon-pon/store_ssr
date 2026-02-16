@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fcfcfc;
+  --foreground: #252525;
+}
+
+:root.dark {
+  --background: #0a0a0a;
+  --foreground: #dddddd;
+}
+
+@theme {
+  --color-border-primary: var(--color-slate-300);
+}
+
+@layer theme {
+  :root.dark & {
+    --color-border-primary: var(--color-slate-700);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
